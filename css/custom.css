@@ -1,3 +1,65 @@
 .overlay-image {
     background: black;
 }
+
+.white-font {
+    color: whitesmoke;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.social_links {
+    padding: 0;
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 3rem;
+}
+
+.social_icons .fa {
+    padding: 1rem;
+    margin: 2px;
+    border-radius: 10%;
+    outline: thin;
+    color: whitesmoke;
+}
+
+.social_icons i:hover {
+    transform: scale(1.1);
+}
+
+.social_icons .fa-linkedin:hover {
+    color: #2867b2;
+}
+
+.social_icons .fa-envelope:hover {
+    color: red;
+}
+
+.social_icons .fa-github-square:hover {
+    color: black;
+}
+
+.skills {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.skill-icon {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.skillset-obj {
+    outline: 2px solid black;
+    margin-right: 7px;
+    border-radius: 10px;
+    padding: 5px;
+    height: 3rem;
+}
