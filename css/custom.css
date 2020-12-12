@@ -94,3 +94,19 @@
     object-fit: contain;
     max-width: 50%;
 }
+
+.experience-header {
+    display: flex;
+    max-height: 8rem;
+    margin-bottom: 1rem;
+}
+
+.experience-logo {
+    height: inherit;
+    max-width: 8rem;
+    margin-right: 10px;
+}
+
+.experience-logo img {
+    height: 100%;
+}
