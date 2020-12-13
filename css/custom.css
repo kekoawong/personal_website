@@ -8,6 +8,10 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.top-margin {
+    margin-top: 10px;
+}
+
 .social_links {
     padding: 0;
     margin: 0;
@@ -75,7 +79,7 @@
     outline-offset: ;
     border-color: black;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     align-content: center;
     display: flex;
 }
@@ -97,16 +101,40 @@
 
 .experience-header {
     display: flex;
-    max-height: 8rem;
     margin-bottom: 1rem;
 }
 
 .experience-logo {
-    height: inherit;
+    max-height: 8rem;
     max-width: 8rem;
     margin-right: 10px;
 }
 
 .experience-logo img {
     height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.experience-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience-links button {
+    background-color: none;
+    border: solid;
+    border-color: #425BB5;
+    border-width: 1px;
+    font-size: 1.4rem;
+    padding: 7px;
+    border-radius: 10px;
+    color: #425BB5;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+.experience-links button:hover {
+    background-color: #425BB5;
+    color: white;
 }
