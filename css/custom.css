@@ -76,7 +76,6 @@
 .skillset-obj {
     margin-right: 7px;
     border-radius: 10px;
-    padding: 3px;
     padding-top: 3px;
     padding-right: 3px;
     padding-bottom: 3px;
@@ -84,12 +83,13 @@
     height: 3.5rem;
     font-size: 1.5rem;
     margin-bottom: 7px;
-    outline-offset: ;
     border-color: black;
     border-style: solid;
     border-width: 1px;
     align-content: center;
     display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .skillset-obj:hover {
@@ -110,6 +110,7 @@
 .experience-header {
     display: flex;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
 }
 
 .experience-logo {
@@ -149,6 +150,48 @@
 
 /* education section
 ==================================================*/
+
+.education-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 85%;
+}
+
+.education-logo {
+    max-height: 12rem;
+    max-width: 12rem;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.education-logo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.education-container .skills {
+    margin-bottom: 14px;
+}
+
+.education-container .skillset-obj {
+    margin-top: 7px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 7px;
+}
+
+.education-container .skill-icon {
+    margin-left: 7px;
+    margin-right: 0px;
+}
 
 #education {
     padding: 100px 0;
