@@ -125,9 +125,16 @@
     border-radius: 10px;
 }
 
+.experience-list {
+    margin-top: 0;
+    padding-bottom: 1.2em;
+    list-style: disclosure-closed;
+}
+
 .experience-links {
     display: flex;
     flex-wrap: wrap;
+    list-style: disclosure-closed;
 }
 
 .experience-links button {
@@ -181,6 +188,10 @@
     margin-bottom: 14px;
 }
 
+.education-container li {
+    list-style: disclosure-closed;
+}
+
 .education-container .skillset-obj {
     margin-top: 7px;
     margin-bottom: 0px;
@@ -223,3 +234,6 @@
 #education h5 {
     margin-top: 0;
 }
+
+/* PROJECTS */
+

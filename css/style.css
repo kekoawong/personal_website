@@ -579,8 +579,8 @@ a.active {
 }
 
 .portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    border: solid;
+    border-color: black;
 }
 
 .portfolio-padding {
