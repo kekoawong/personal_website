@@ -92,10 +92,10 @@
     text-overflow: ellipsis;
 }
 
-.skillset-obj:hover {
-    color: #425BB5;
+/* .skillset-obj:hover {
     border-color: #425BB5;
-}
+    color: #425BB5;
+} */
 
 .gif-container {
     display: block;
@@ -128,13 +128,13 @@
 .experience-list {
     margin-top: 0;
     padding-bottom: 1.2em;
-    list-style: disclosure-closed;
+    list-style: disc;
 }
 
 .experience-links {
     display: flex;
     flex-wrap: wrap;
-    list-style: disclosure-closed;
+    list-style: disk;
 }
 
 .experience-links button {
@@ -189,7 +189,7 @@
 }
 
 .education-container li {
-    list-style: disclosure-closed;
+    list-style: disc;
 }
 
 .education-container .skillset-obj {
