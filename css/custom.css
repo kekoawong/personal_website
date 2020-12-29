@@ -111,11 +111,20 @@
     display: flex;
     margin-bottom: 1rem;
     flex-wrap: wrap;
+    align-items: center;
+}
+
+.experience-sub-header h4 {
+    margin-bottom: 3px !important;
+}
+
+.experience-sub-header .skillset-obj {
+    border: none !important;
 }
 
 .experience-logo {
-    max-height: 8rem;
-    max-width: 8rem;
+    max-height: 10rem;
+    max-width: 10rem;
     margin-right: 10px;
 }
 
