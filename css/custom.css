@@ -82,6 +82,7 @@
     margin-right: 7px;
     border-radius: 10px;
     padding: 3px;
+    padding-right: 7px;
     font-size: 1.5rem;
     margin-bottom: 7px;
     border-color: black;
@@ -138,7 +139,6 @@
 
 .experience-list {
     margin-top: 0;
-    padding-bottom: 1.2em;
     list-style: disc;
 }
 
@@ -146,6 +146,7 @@
     display: flex;
     flex-wrap: wrap;
     list-style: disk;
+    padding-top: 1.2rem;
 }
 
 .experience-links button {
@@ -245,5 +246,54 @@
     margin-top: 0;
 }
 
-/* PROJECTS */
+#bookshelf {
+    padding: 100px 0
+}
+
+.book-holder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    border: solid;
+    background-color: white;
+    border-color: black;
+    border-width: 3px;
+    font-size: 1.4rem;
+    padding: 7px;
+    border-radius: 10px;
+    width: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 896px) {
+    .book {
+        width: 100%;
+   }
+}
+
+.book:hover {
+    background-color: #425BB5;
+    border-color: #425BB5;
+    color: white;
+}
+
+.book p {
+    margin: 0;
+}
+
+.book-title {
+    width: 100%;
+    padding-top: 3px;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Comic Sans';
+}
+
 
