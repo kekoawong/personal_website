@@ -296,4 +296,11 @@
     font-family: 'Comic Sans';
 }
 
+.fa-large {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -10%;
+    margin-right: 1px;
+}
+
 
