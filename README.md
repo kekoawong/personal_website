@@ -8,4 +8,4 @@ Written in JavaScript, HTML, and CSS
 
 Base Design: Free CSS Templates at https://www.free-css.com/template-categories/personal 
 
-Icons: Font Awesome (https://fontawesome.com/) and Clip Art (https://www.clipart.com/)
+Icons: Font Awesome (https://fontawesome.com/), Ionicons (https://ionicons.com/v4/), and Clip Art (https://www.clipart.com/)
