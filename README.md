@@ -4,7 +4,7 @@ Come visit me at https://kekoawong.github.io/personal_website/
 
 Written in JavaScript, HTML, and CSS
 
-### Credits
+### Credits:
 
 Base Design: Free CSS Templates at https://www.free-css.com/template-categories/personal 
 
