@@ -215,37 +215,6 @@
     margin-right: 0px;
 }
 
-#education {
-    padding: 100px 0;
-    background: #f3f3f3
-}
-
-#education p {
-    font-size: 17px;
-}
-
-#education li {
-    font-size: 17px;
-}
-
-#education a {
-    font-weight: 700;
-    color: #333;
-}
-
-#education a:hover {
-    color: #425BB5;
-}
-
-#education h3 {
-    margin-bottom: 2px;
-    font-weight: 600
-}
-
-#education h5 {
-    margin-top: 0;
-}
-
 #bookshelf {
     padding: 100px 0
 }

@@ -1,7 +1,7 @@
 function createListItems(items) {
     // Must be in a list form
-    html = '';
-    for (let i in items) {
+    let html = '';
+    for (let i of items) {
         html += `<li>${i}</li>`;
     }
     return html;
@@ -10,7 +10,7 @@ function createListItems(items) {
 function createBottomInfo(info) {
     // Must be in for of a list of dictionaries
     // { Bolded idea: Stuff }
-    html = '';
+    let html = '';
     for (const [key, value] of Object.entries(info)) {
         html += `<p><strong>${key}</strong>${value}</p>`;
     }
@@ -20,21 +20,37 @@ function createBottomInfo(info) {
 function createButtons(info) {
     // Must be in for of a list of dictionaries
     // { Button Title: link }
-    html = '';
+    let html = '';
     for (const [key, value] of Object.entries(info)) {
         html += `<button onclick="window.open('${value}','_blank')"><strong>${key}</strong></button>`;
     }
     return html;
 }
 
-export function container(heading='', subheading='', listItems=[], bottomInfo=[], buttons=[], link='#', logo='#', location=null, link) {
+export function container(dataObject) {
     /*
-        listItems: list of sentences
-        bottomInfo: list of dictionaries in form { Bolded idea: Sentence }
-        buttons: list of dictionaries in form { Button Title: link }
+        Pass in object with the following values minimum:
+            {
+                "heading": string
+                "subheading": string
+                "link": string
+                "logo": string
+                "location": string
+                "listItems": list of string sentences
+                "bottomInfo": list of dictionaries in form { Bolded idea: Sentence }
+                "buttons": list of dictionaries in form { Button Title: link }
+            }
     */
-
-    location_html = location ? `<h5><i class="fa fa-map-marker fa-large" aria-hidden="true"></i>${location}</h5>` : '';
+    
+    // set default values
+    let heading = dataObject["heading"] || '';
+    let subheading = dataObject["subheading"] || '';
+    let link = dataObject["link"] || '#';
+    let logo = dataObject["logo"] || '#';
+    let location_html = dataObject["location"] ? `<h5><i class="fa fa-map-marker fa-large" aria-hidden="true"></i>${dataObject["location"]}</h5>` : '';
+    let listItems = dataObject["listItems"] || [];
+    let bottomInfo = dataObject["bottomInfo"] || [];
+    let buttons = dataObject["buttons"] || '';
 
     return `
         <div class="info-container">
