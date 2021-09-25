@@ -19,7 +19,7 @@ function createBottomInfo(info) {
 
 function createButtons(info) {
     // Must be in for of a list of dictionaries
-    // { Button Title: link}
+    // { Button Title: link }
     html = '';
     for (const [key, value] of Object.entries(info)) {
         html += `<button onclick="window.open('${value}','_blank')"><strong>${key}</strong></button>`;
@@ -27,7 +27,15 @@ function createButtons(info) {
     return html;
 }
 
-export function container(title, author, link) {
+export function container(heading='', subheading='', listItems=[], bottomInfo=[], buttons=[], link='#', logo='#', location=null, link) {
+    /*
+        listItems: list of sentences
+        bottomInfo: list of dictionaries in form { Bolded idea: Sentence }
+        buttons: list of dictionaries in form { Button Title: link }
+    */
+
+    location_html = location ? `<h5><i class="fa fa-map-marker fa-large" aria-hidden="true"></i>${location}</h5>` : '';
+
     return `
         <div class="info-container">
             <div class="info-header">
@@ -36,6 +44,7 @@ export function container(title, author, link) {
                 </div>
                 <div class="info-header-text">
                     <h3><a href="${link}" target="_blank">${heading}</a></h3>
+                    ${location_html}
                     <p>${subheading}</p>
                 </div>
             </div>
