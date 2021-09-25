@@ -302,7 +302,7 @@ a.active {
 ==================================================*/
 
 #about {
-    padding: 100px 0;
+    padding-top: 100px;
 }
 
 .about-img-div img {
