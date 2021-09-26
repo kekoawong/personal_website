@@ -305,6 +305,10 @@ a.active {
     padding-top: 100px;
 }
 
+#about h3 {
+    font-size: 2rem;
+}
+
 .about-img-div img {
     margin: 0 auto;
 }
@@ -442,10 +446,6 @@ a.active {
 
 /* projects section
 ==================================================*/
-
-#projects {
-    background: #f3f3f3
-}
 
 .portfolio .categories-grid span {
     font-size: 30px;

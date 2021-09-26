@@ -1,5 +1,5 @@
 .section-header {
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -14,12 +14,14 @@
     box-shadow: 0 0 6px rgba(0,0,0,0.2);
     transition: 0.3s;
     padding: 2px 16px;
-    margin-bottom: 3rem;
+    padding-bottom: 8px;
+    margin-bottom: 1.5rem;
 }
 
 .info-header {
     display: flex;
     flex-direction: row;
+    padding-bottom: 8px;
 }
 
 .info-info {
@@ -29,9 +31,9 @@
 }
 
 .info-logo {
-    max-height: 8rem;
-    max-width: 8rem;
-    margin-right: 20px;
+    max-height: 7rem;
+    max-width: 7rem;
+    margin-right: 16px;
     margin-top: 20px;
 }
 
@@ -43,14 +45,20 @@
 
 .info-container li {
     list-style: disc;
+    font-size: 15px;
 }
 
 .info-container p {
-    font-size: 17px;
+    font-size: 15px;
+    margin-bottom: 0;
 }
 
-.info-container li {
-    font-size: 17px;
+.info-container h5 {
+    margin-bottom: 0;
+}
+
+.info-container ul {
+    margin-bottom: 3px;
 }
 
 .info-container a {
