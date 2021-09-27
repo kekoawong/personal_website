@@ -3,13 +3,26 @@
     padding-bottom: 1rem;
 }
 
+.top-container {
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 30;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    padding: 4px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+
 .info-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;    
     /* padding: 100px 0; */
-    background: white;
+    background: white; 
     border-radius: 10px;
     box-shadow: 0 0 6px rgba(0,0,0,0.2);
     transition: 0.3s;

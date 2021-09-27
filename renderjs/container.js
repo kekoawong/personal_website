@@ -12,7 +12,7 @@ function createBottomInfo(info) {
     // { Bolded idea: Stuff }
     let html = '';
     for (const [key, value] of Object.entries(info)) {
-        html += `<p><strong>${key}</strong>${value}</p>`;
+        html += `<p><strong>${key} </strong>${value}</p>`;
     }
     return html;
 }
