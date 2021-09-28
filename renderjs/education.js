@@ -11,7 +11,7 @@ let education = [
                         "Awarded Math Department Award for exhibiting an extended curiosity and in-depth understanding of mathematics.",
                         "3-year varsity athlete in both basketball and tennis."
                     ],
-        "bottomInfo": {"Honors and Awards:": "California Scholarship Federation, National Honors Society, Del Oro Parents' Club Scholarship, Society of American Military Engineers Scholarship."}
+        "bottomInfo": {"Honors and Awards:": "California Scholarship Federation, National Honors Society, National Merit Commended Scholar, Del Oro Parents' Club Scholarship, Society of American Military Engineers Scholarship."}
     } 
 ];
 

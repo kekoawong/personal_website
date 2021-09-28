@@ -1,9 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .contact {
     display: flex;
     flex-direction: row;
     width: 100%;
     flex-wrap: wrap;
 }
+
 .contact-icon {
     font-size: 20rem;
     margin: 2rem;
