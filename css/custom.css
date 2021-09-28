@@ -1,3 +1,44 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.contact-icon {
+    font-size: 20rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact-plane {
+    font-size: 10rem;
+    margin: 2rem;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contact-subicon {
+    margin: 2rem;
+}
+
+.contact a {
+    color: #333;
+}
+
+.contact h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contact-stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .main-image {
     border-radius: 10px;
@@ -128,7 +169,7 @@
 
 .contact-gif {
     object-fit: contain;
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .experience-header {

@@ -586,7 +586,6 @@ a.active {
 
 .portfolio-inner {
     padding-bottom: 0 !important;
-    padding-top: 55px;
 }
 
 .modal-content {
@@ -628,8 +627,7 @@ a.active {
 ==================================================*/
 
 #contact {
-    padding: 100px 0;
-    background: #f3f3f3
+    padding-bottom: 100px;
 }
 
 #contact-form input,
