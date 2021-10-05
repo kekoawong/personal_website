@@ -37,8 +37,8 @@ export function container(dataObject) {
                 "logo": string
                 "location": string
                 "listItems": list of string sentences
-                "bottomInfo": list of dictionaries in form { Bolded idea: Sentence }
-                "buttons": list of dictionaries in form { Button Title: link }
+                "bottomInfo": dictionary with keys and values that will correspond to { Bolded idea: Sentence }
+                "buttons": dictionary with keys and values that will correspond to { Button Title: link }
             }
     */
     
