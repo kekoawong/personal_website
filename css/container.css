@@ -15,6 +15,18 @@
     margin-top: 2rem;
 }
 
+.top-container .info-links {
+    padding: 0;
+}
+
+.top-container p a {
+    font-weight: 700;
+    color: #333;
+}
+
+.top-container p a:hover {
+    color: #425BB5;
+}
 
 .info-container {
     width: 100%;
