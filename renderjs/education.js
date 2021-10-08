@@ -2,6 +2,23 @@ import { container } from "./container.js";
 
 let education = [
     {
+        "heading": "University of Notre Dame",
+        "subheading": "2018-2022 | GPA: 3.81",
+        "link": "https://sites.google.com/puhsd.k12.ca.us/delorohigh/home",
+        "logo": "img/nd_logo.png",
+        "location": "Notre Dame, Indiana, USA",
+        "listItems": ["Pursuing a BS from the College of Engineering with majors in Computer Engineering and Philosophy.",
+                        "3x Dean's List for College of Engineering."
+                    ],
+        "bottomInfo": {"Philosophy Coursework": 
+                    "Ethics and Policy in Technology Management, Game Theory, Simulating Politics and Foreign Affairs, Seminar on Justice, Censorship and Propaganda, Formal Logic, Ethics and Politics, Modern Philosophy.",
+                    "Engineering Coursework:": "AI and Social Good, Natural Language Processing, Data Structures, Data Science, Databases, Operating Systems, Computer Architecture, Electrical Signals and Systems, Electrical Circuits."
+                },
+        "buttons": {"Department of Philosophy": "https://philosophy.nd.edu/",
+                    "Department of Computer Science and Engineering": "https://cse.nd.edu/"
+                }
+    },
+    {
         "heading": "Del Oro High School",
         "subheading": "2014 - 2018 | GPA: 4.31",
         "link": "https://sites.google.com/puhsd.k12.ca.us/delorohigh/home",
