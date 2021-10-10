@@ -3,7 +3,7 @@ import { container } from "./container.js";
 let education = [
     {
         "heading": "University of Notre Dame",
-        "subheading": "2018-2022 | GPA: 3.81",
+        "subheading": "2018-2022 | GPA: 3.80",
         "link": "https://sites.google.com/puhsd.k12.ca.us/delorohigh/home",
         "logo": "img/nd_logo.png",
         "location": "Notre Dame, Indiana, USA",
@@ -24,7 +24,7 @@ let education = [
         "link": "https://sites.google.com/puhsd.k12.ca.us/delorohigh/home",
         "logo": "img/del_oro.jpeg",
         "location": "Loomis, California, USA",
-        "listItems": ["Graduated Magna Cum Laudee and honored with a class rank of 5/429.",
+        "listItems": ["Graduated with a class rank of 5/429.",
                         "Awarded Math Department Award for exhibiting an extended curiosity and in-depth understanding of mathematics.",
                         "3-year varsity athlete in both basketball and tennis."
                     ],
