@@ -15,10 +15,9 @@
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
     <!-- main style -->
     <link href="css/style.css" rel="stylesheet">
-    <script src="js/highlight_skills.js"></script>
-    <script src="js/log_event.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -45,338 +44,75 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#bookshelf">Bookshelf</a></li>
+                <li><a href="#projects">Projects/Papers</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <!-- ./header -->
-    <!-- home -->
-    <div class="section" id="home" data-stellar-background-ratio="0.5">
-        
-            <div class="container">
-                <div class="disply-table white-font col-md-6">
-                    <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
-                        <h1 class="header-font">Kekoa Wong</h1>
-                        <h4 class="white-font">Humane Technologist and Engineer</h4>
-                            <ul class="social_links">
-                                <li class="twitter social_icons"><a href="https://www.linkedin.com/in/kekoa-wong/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                <li class="gplus social_icons"><a href="mailto:kwong6@nd.edu"><i class="fa fa-envelope"></i></a></li> 
-                                <li class="social_icons"><a href="https://github.com/kekoawong" target="_blank"><i class="fa fa-github"></i></a></li>
-                                <li class="social_icons"><a href="https://gitlab.com/kwong6" target="_blank"><i class="fa fa-gitlab"></i></a></li>
-                            </ul>
-                    </div>
-                </div>
-            </div>
-        
-    </div>
-    <!-- ./home -->
     
     <!-- about -->
-    <div class="section" id="about">
-        <div class="container">
-            <div class="col-md-6" data-aos="fade-up">
-                <h4>01</h4>
-                <h1 class="size-50">About Me</h1>
-                <div class="h-50"></div>
-                <p>I am passionate about building technology that serves to better the lives of individuals and society.
-                    Additionally, I love learning and have a natural sense of curiosity in my work. 
-                    Currently, I am double majoring in <strong>Computer Engineering</strong> and <strong>Philosophy</strong> at the University of Notre Dame.
-                    I am interested in roles that require cross-functional teamwork in the fields of software development, fintech, and data science.
-                </p>
-                <!-- skill div -->
-                <h3>Skills:</h3>
-                <div class="skills">
-                    <div class="skillset-obj PM"><img src="img/icons/management.png" class="skill-icon"><strong>Program Management</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/software.png" class="skill-icon"><strong>Software Development</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/design.png" class="skill-icon"><strong>UI/UX Design</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/data_science.png" class="skill-icon"><strong>Data Science</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/hardware.png" class="skill-icon"><strong>Hardware Engineering</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/agile.png" class="skill-icon"><strong>Agile Development</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/python.png" class="skill-icon"><strong>Python</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/react.png" class="skill-icon"><strong>React Native</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/c++.png" class="skill-icon"><strong>C/C++</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/javascript.png" class="skill-icon"><strong>JavaScript</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/git.png" class="skill-icon"><strong>Git</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/hmtl.png" class="skill-icon"><strong>HTML</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/css.png" class="skill-icon"><strong>CSS</strong></div>
-                </div>
-                <!-- Interests and Passions div -->
-                <h3>Interests:</h3>
-                <div class="skills">
-                    <div class="skillset-obj"><img src="img/icons/policy.png" class="skill-icon"><strong>Technology Policy</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/ethical.png" class="skill-icon"><strong>Ethical Computing</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/nudge.png" class="skill-icon"><strong>Behavioral Economics</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/psychology.png" class="skill-icon"><strong>Psychology and Human Cognition</strong></div>
-                    <div class="skillset-obj"><img src="img/icons/agency.png" class="skill-icon"><strong>Agency in Tech Design</strong></div>
-                </div>
-                <!-- <div class="h-50"></div> <img src="img/Signature.svg" width="230" alt="" /> -->
-                <!-- <div class="h-50"></div> -->
+    <div class="section white-bg" id="about">
+        <div class="container top-container">
+            <div class="col-md-3 about-img-div">
+                <!-- <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div> -->
+                <img src="img/profile.jpg" class="img-responsive main-image" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
             </div>
-            <div class="col-md-6 about-img-div top-margin">
-                <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
-                <img src="img/profile.jpg" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+            <div class="col-md-8" data-aos="fade-up">
+                <div>
+                    <h1 class="size-50">Hello! I'm Kekoa Wong</h1>
+                </div>
+                <p>I was originally born and raised in Sacramento, California but am currently completing a Bachelor of Science with a 
+                    double major in <a href="https://cse.nd.edu/" target="_blank">Computer Engineering</a> and <a href="https://philosophy.nd.edu/" target="_blank">Philosophy</a> 
+                    from the <a href="https://nd.edu/" target="_blank">University of Notre Dame</a>. 
+                    My research interests are in <em>human cognition</em>, <em>artificial intelligence</em>, and <em>ethical applications of technology</em>. 
+                    I am also a student affiliate at Notre Dame’s <a href="https://techethics.nd.edu/" target="_blank">Technology Ethics Center</a> and 
+                    was selected to join <a href="https://lookup.live/leadership-lab" target="_blank">LookUp's Leadership Lab</a> for youth leaders who are building a more humane digital world. 
+                </p>
+                <p>
+                    I have been most significantly involved in research and outside projects that have involved <em>data science, machine learning, 
+                    AI ethics, natural language processing, entrepreneurship, business ethics, software development, and human-centered design,</em> among others. 
+                    I would love to talk about any interesting opportunities or general topics, so please reach out!
+                </p>
+                <div class="info-links">
+                    <button onclick="document.getElementById('projects').scrollIntoView();"><strong>View My Projects</strong></button>
+                    <button onclick="document.getElementById('contact').scrollIntoView();"><strong>Contact Me</strong></button>
+                </div>
             </div>
         </div>
     </div>
     <!-- ./about -->
 
     <!-- Education -->
-    <div class="section" id="education">
+    <div class="section grey-bg">
         <div class="container">
-            <!-- <div class="col-md-12">
-                <h4>04</h4>
-                <h1 class="size-50">Contact  Me</h1>
-                <div class="h-50"></div>
-            </div> -->
-            <div class="col-md-14" data-aos="fade-up">
-                <h4>02</h4>
-                <h1 class="size-50">Education</h1>
-                <br>
-                <!-- Education -->
-                <div class="education-container">
-                    <div class="education-logo">
-                        <a href="https://www.nd.edu/" target="_blank"><img src="img/nd_logo.png"></a>
-                    </div>
-                    <div class="education-info">
-                        <h3><a href="https://www.nd.edu/" target="_blank">University of Notre Dame</a></h3>
-                        <h5><i class="fa fa-map-marker fa-large" aria-hidden="true"></i> Notre Dame, Indiana, United States</h5>
-                        <p>2018 - 2022 | GPA: 3.80</p>
-                        <ul>
-                            <li>Double majoring in <a href="https://cse.nd.edu/" target="_blank">Computer Engineering (BS)</a> and <a href="https://philosophy.nd.edu/" target="_blank">Philosophy (BA)</a>.</li>
-                            <li>Engineering Coursework:
-                                <div class="skills">
-                                    <div class="skillset-obj"><strong>Data Structures</strong><img src="img/icons/software.png" class="skill-icon"><img src="img/icons/c++.png" class="skill-icon"><img src="img/icons/git.png" class="skill-icon"></div>
-                                    <div class="skillset-obj"><strong>Data Science</strong><img src="img/icons/data_science.png" class="skill-icon"><img src="img/icons/python.png" class="skill-icon"><img src="img/icons/git.png" class="skill-icon"></div>
-                                    <div class="skillset-obj"><strong>Operating Systems</strong><img src="img/icons/software.png" class="skill-icon"><img src="img/icons/c++.png" class="skill-icon"><img src="img/icons/git.png" class="skill-icon"></div>
-                                    <div class="skillset-obj"><strong>Computer Architecture</strong><img src="img/icons/hardware.png" class="skill-icon"><img src="img/icons/c++.png" class="skill-icon"></div>
-                                    <div class="skillset-obj"><strong>Logic Design</strong><img src="img/icons/hardware.png" class="skill-icon"><img src="img/icons/c++.png" class="skill-icon"></div>
-                                    <div class="skillset-obj"><strong>Systems Programming</strong><img src="img/icons/software.png" class="skill-icon"><img src="img/icons/python.png" class="skill-icon"><img src="img/icons/c++.png" class="skill-icon"><img src="img/icons/git.png" class="skill-icon"></div>
-                                    <div class="skillset-obj"><strong>Electric Circuits</strong><img src="img/icons/hardware.png" class="skill-icon"></div>
-                                    <div class="skillset-obj"><strong>Electronics</strong><img src="img/icons/hardware.png" class="skill-icon"></div>
-                                    <div class="skillset-obj"><strong>Discrete Mathematics</strong><img src="img/icons/software.png" class="skill-icon"></div>
-                                </div>
-                            </li>
-                            <li>Philosophy Coursework: 
-                                <div class="skills">
-                                    <div class="skillset-obj"><strong>Ethics and Policy in Technology Management</strong><img src="img/icons/policy.png" class="skill-icon"><img src="img/icons/ethical.png" class="skill-icon"></div>
-                                    <div class="skillset-obj"><strong>Censorship and Propaganda</strong><img src="img/icons/policy.png" class="skill-icon"><img src="img/icons/psychology.png" class="skill-icon"></div>
-                                    <div class="skillset-obj"><strong>Attention and Emotion in the Digital Age</strong><img src="img/icons/ethical.png" class="skill-icon"><img src="img/icons/psychology.png" class="skill-icon"><img src="img/icons/agency.png" class="skill-icon"></div>
-                                    <div class="skillset-obj"><strong>Simulating Politics and Global Affairs</strong><img src="img/icons/nudge.png" class="skill-icon"><img src="img/icons/psychology.png" class="skill-icon"></div>
-                                    <div class="skillset-obj"><strong>Ethics and Politics</strong><img src="img/icons/ethical.png" class="skill-icon"></div>
-                                    <div class="skillset-obj"><strong>Justice Seminar</strong><img src="img/icons/policy.png" class="skill-icon"><img src="img/icons/ethical.png" class="skill-icon"><img src="img/icons/nudge.png" class="skill-icon"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="col-md" data-aos="fade-up" id="education">
+                <div class="section-header">
+                    <h4>01</h4>
+                    <h1 class="size-50">Education</h1>
                 </div>
-                <br>
-                <!-- Education -->
-                <div class="education-container">
-                    <div class="education-logo">
-                        <a href="http://deloro.puhsd.k12.ca.us/home" target="_blank"><img src="img/del_oro.jpeg"></a>
-                    </div>
-                    <div class="education-info">
-                        <h3><a href="http://deloro.puhsd.k12.ca.us/home" target="_blank">Del Oro High School</a></h3>
-                        <h5><i class="fa fa-map-marker fa-large" aria-hidden="true"></i> Loomis, California, United States</h5>
-                        <p>2014 - 2018 | GPA: 4.31 | Class Rank: 5/429</p>
-                        <ul>
-                            <li>Awarded Math Department Award for exhibiting an extended curiosity and in-depth understanding of mathematics.</li>
-                            <li>Played varsity basketball and tennis.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
             </div>
         </div>
     </div>
     <!-- ./education -->
-    
+
     <!-- experience  -->
-    <div class="section" id="experience">
+    <div class="section white-bg">
         <div class="container">
-            <div class="col-md-12">
-                <h4>03</h4>
-                <h1 class="size-50">Experience</h1>
-                <div class="h-50"></div>
-            </div>
-            <div class="col-md-12">
-                <ul class="timeline">
-                    <!-- Single Experience -->
-                    <li class="timeline-event" data-aos="fade-up">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">January 2020 - Present</p>
-                            <div class="experience-header">
-                                <div class="experience-logo">
-                                    <a href="https://www.eventurely.app/" target="_blank"><img src="img/eventurely-logo.png"></a>
-                                </div>
-                                <div class="experience-sub-header">
-                                    <h3>Project Leader</h3>
-                                    <h4>Eventurely</h4>
-                                    <div class="skillset-obj">
-                                        <img src="img/icons/management.png" class="skill-icon">
-                                        <img src="img/icons/software.png" class="skill-icon">
-                                        <img src="img/icons/design.png" class="skill-icon">
-                                        <img src="img/icons/agile.png" class="skill-icon">
-                                        <img src="img/icons/react.png" class="skill-icon">
-                                        <img src="img/icons/git.png" class="skill-icon">
-                                        <img src="img/icons/javascript.png" class="skill-icon">
-                                        <img src="img/icons/hmtl.png" class="skill-icon">
-                                        <img src="img/icons/css.png" class="skill-icon">
-                                        <img src="img/icons/policy.png" class="skill-icon">
-                                        <img src="img/icons/ethical.png" class="skill-icon">
-                                        <img src="img/icons/agency.png" class="skill-icon">
-                                    </div>
-                                </div>
-                            </div>
-                            <h5><strong>Led a team of 10 cross-functional members to create and launch an event management app built in React Native.</strong></h5>
-                            <ul class="experience-list">
-                                <li>Managed the collaboration between designers, developers and business strategists while maintaining vision to serve communities by offering a unified solution that promotes engagement, diversity and inclusion.</li>
-                                <li>Engaged with multiple stakeholders through hands-on development of a business model, identifying and formulating a target market, and creating/executing a project plan.</li>
-                                <li>Owned the overhaul of the user interface, backed by research and the design-thinking process, to create an innovative experience that empowers individuals to engage with their community through the app.</li>
-                            </ul>
-                            <h5><strong>Won LookUp.live's startup competition for ideas in ethical technology.</strong></h5>
-                            <ul class="experience-list">
-                                <li>Awarded $2.5k in seed funding for designing a ground-breaking solution to digital wellbeing and humane technology.</li>
-                                <li>Pitched to a panel of LookUp judges and was one of 45 youth leaders offered a position as a LookUp Social Innovator.</li>
-                                <li>Gained mentorship and training for leadership development in ethical technology.</li>
-                            </ul>
-                            <h5><strong>Developed various screens and components using React Native.</strong></h5>
-                            <ul class="experience-list">
-                                <li>Learned how to develop mobile apps with React Native and built various components.</li>
-                                <li>Researched and implemented React Native libraries in order to build product features.</li>
-                            </ul>
-                            <div class="experience-links">
-                                <button onclick="window.open('https://apps.apple.com/us/app/eventurely/id1490342315','_blank')"><i class="fa fa-apple fa-large" aria-hidden="true"></i> <strong>Apple Store</strong></button>
-                                <button onclick="window.open('https://play.google.com/store/apps/details?id=com.arrix.eventurely&hl=en_US&gl=US','_blank')"><i class="fa fa-android fa-large" aria-hidden="true"></i> <strong>Android Store</strong></button>
-                                <button onclick="window.open('https://www.eventurely.app/','_blank')"><i class="fa fa-laptop fa-large" aria-hidden="true"></i> <strong>Website</strong></button>
-                                <button onclick="window.open('https://www.linkedin.com/company/eventurely/','_blank')"><i class="fa fa-linkedin-square fa-large" aria-hidden="true"></i> <strong>LinkedIn</strong></button>
-                                <button onclick="window.open('https://www.facebook.com/eventurely.app.1','_blank')"><i class="fa fa-facebook-square fa-large" aria-hidden="true"></i> <strong>Facebook</strong></button>
-                                <button onclick="window.open('https://www.instagram.com/_eventurely_/','_blank')"><i class="fa fa-instagram fa-large" aria-hidden="true"></i> <strong>Instagram</strong></button>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- Single Experience -->
-                    <li class="timeline-event" data-aos="fade-up">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">June 2020 - August 2020</p>
-                            <div class="experience-header">
-                                <div class="experience-logo">
-                                    <a href="https://ideacenter.nd.edu/" target="_blank"><img src="img/idea_center.jpg"></a>
-                                </div>
-                                <div class="experience-sub-header">
-                                    <h3>Jr. Software Engineer in Startup Business Intelligence</h3>
-                                    <h4>IDEA Center</h4>
-                                    <div class="skillset-obj">
-                                        <img src="img/icons/software.png" class="skill-icon">
-                                        <img src="img/icons/design.png" class="skill-icon">
-                                        <img src="img/icons/agile.png" class="skill-icon">
-                                        <img src="img/icons/react.png" class="skill-icon">
-                                        <img src="img/icons/javascript.png" class="skill-icon">
-                                        <img src="img/icons/git.png" class="skill-icon">
-                                        <img src="img/icons/hmtl.png" class="skill-icon">
-                                        <img src="img/icons/css.png" class="skill-icon">
-                                    </div>
-                                </div>
-                            </div>
-                            <h5><strong>Developed product marketplace for startup incubator.</strong></h5>
-                            <ul class="experience-list">
-                                <li>Utilized Sharetribe’s flex template for web in order to lay the foundation of the marketplace.</li>
-                                <li>Created product and product-details pages using React, JavaScript, CSS, and HTML</li>
-                            </ul>
-                            <div class="experience-links">
-                                <button onclick="window.open('https://github.com/jaeyoungchang5/idea-marketplace','_blank')"><i class="fa fa-github fa-large" aria-hidden="true"></i> <strong>Repository</strong></button>
-                                <button onclick="window.open('https://ideacenter.nd.edu/','_blank')"><i class="fa fa-laptop fa-large" aria-hidden="true"></i> <strong>Website</strong></button>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- Single Experience -->
-                    <li class="timeline-event" data-aos="fade-up">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">August 2019 - May 2020</p>
-                            <div class="experience-header">
-                                <div class="experience-logo">
-                                    <a href="https://www3.nd.edu/~tweninge/" target="_blank"><img src="img/nd_logo.png"></a>
-                                </div>
-                                <div class="experience-sub-header">
-                                    <h3>Social Media Misinformation Research Assistant</h3>
-                                    <h4>Dr. Tim Weninger - University of Notre Dame</h4>
-                                    <div class="skillset-obj">
-                                        <img src="img/icons/data_science.png" class="skill-icon">
-                                        <img src="img/icons/python.png" class="skill-icon">
-                                        <img src="img/icons/git.png" class="skill-icon">
-                                        <img src="img/icons/policy.png" class="skill-icon">
-                                        <img src="img/icons/ethical.png" class="skill-icon">
-                                        <img src="img/icons/nudge.png" class="skill-icon">
-                                        <img src="img/icons/psychology.png" class="skill-icon">
-                                    </div>
-                                </div>
-                            </div>
-                            <h5><strong>Acquired a deep understanding how ideas are spread and consumed with virality in an online environment.</strong></h5>
-                            <ul class="experience-list">
-                                <li>Researched how platforms can be designed in a way to minimize the effects of harmful content.</li>
-                                <li>Utilized data science principles such as parsing, cleaning, and formatting with efficient and parallelized code, considering time and memory for scalability to large datasets.</li>
-                                <li>Used Python to write reusable and efficient scripts that would scrape data, clean it, and structure it in a format to use for machine-learning libraries.</li>
-                                <li>Scoped a project plan with two team members and presented weekly progress to lead professor.</li>
-                            </ul>
-                            <div class="experience-links">
-                                <button onclick="window.open('https://github.com/kekoawong/wikipedia_parsers','_blank')"><i class="fa fa-github fa-large" aria-hidden="true"></i> <strong>Repository</strong></button>
-                                <button onclick="window.open('https://www3.nd.edu/~tweninge/','_blank')"><i class="fa fa-laptop fa-large" aria-hidden="true"></i> <strong>Professor's Website</strong></button>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- Single Experience -->
-                    <li class="timeline-event" data-aos="fade-up">
-                        <label class="timeline-event-icon"></label>
-                        <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">January 2019 - May 2019</p>
-                            <div class="experience-header">
-                                <div class="experience-logo">
-                                    <a href="https://sites.nd.edu/chaoli-wang/" target="_blank"><img src="img/nd_logo.png"></a>
-                                </div>
-                                <div class="experience-sub-header">
-                                    <h3>Data Visualization Research Assistant</h3>
-                                    <h4>Dr. Chaoli Wang - University of Notre Dame</h4>
-                                    <div class="skillset-obj">
-                                        <img src="img/icons/software.png" class="skill-icon">
-                                        <img src="img/icons/design.png" class="skill-icon">
-                                        <img src="img/icons/javascript.png" class="skill-icon">
-                                        <img src="img/icons/git.png" class="skill-icon">
-                                        <img src="img/icons/hmtl.png" class="skill-icon">
-                                        <img src="img/icons/css.png" class="skill-icon">
-                                        <img src="img/icons/psychology.png" class="skill-icon">
-                                    </div>
-                                </div>
-                            </div>
-                            <h5><strong>Executed a deep dive into graph networks and methods in which humans best visualize and understand data.</strong></h5>
-                            <ul class="experience-list">
-                                <li>Contributed to development of GraphVisual, and educational data visualization software</li>
-                                <li>Collaborated on code using git, while also applying D3.js library, HTML, and CSS to improve UI and graph functionalities.</li>
-                                <li>Restructured entire JavaScript code base into a more efficient and understandable format while also debugging the software by actively testing the various toolkit features and graph visualizations.</li>
-                                <li>Embraced ambiguity by self-teaching and covering roles and responsibilities of a team in flux.</li>
-                            </ul>
-                            <div class="experience-links">
-                                <button onclick="window.open('https://www3.nd.edu/~cwang11/graphvisual/','_blank')"><i class="fa fa-eye fa-large" aria-hidden="true"></i> <strong>GraphVisual</strong></button>
-                                <button onclick="window.open('https://www3.nd.edu/~cwang11/research/asee20-graphvisual.pdf','_blank')"><i class="fa fa-paper-plane fa-large" aria-hidden="true"></i> <strong>Publication</strong></button>
-                                <button onclick="window.open('https://github.com/mimre25/graph-visual','_blank')"><i class="fa fa-github fa-large" aria-hidden="true"></i> <strong>Repository</strong></button>
-                                <button onclick="window.open('https://sites.nd.edu/chaoli-wang/','_blank')"><i class="fa fa-laptop fa-large" aria-hidden="true"></i> <strong>Professor's Website</strong></button>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+            <div class="col-md" id="experience" data-aos="fade-up">
+                <div class="section-header">
+                    <h4>02</h4>
+                    <h1 class="size-50">Experience</h1>
+                </div>
             </div>
         </div>
     </div>
     <!-- ./experience -->
-    
-    <!-- projects -->
-    <div class="section" id="projects">
+
+     <!-- projects -->
+     <div class="section grey-bg" >
         <div class="container">
-            <div class="col-md-12">
+            <div class="col-md-12" id="projects">
                 <h4>04</h4>
                 <h1 class="size-50">Projects</h1> 
             </div>
@@ -468,73 +204,33 @@
     </div>
     <!-- ./projects -->
 
-    <!-- bookshelf -->
-    <div class="section" id="bookshelf">
-        <div class="container">
-            <div class="col-md-12" data-aos="fade-up">
-                <h4>05</h4>
-                <h1 class="size-50">Recent Reads</h1>
-                <div class="h-50"></div>
-                
-            </div>
-            <div class="col-md-12 book-holder" data-aos="fade-up">
-            </div>
-        </div>
-    </div>
-    <!-- ./bookshelf -->
-
-    <!-- contact -->
-    <div class="section" id="contact">
-        <div class="container">
-            <!-- <div class="col-md-12">
-                <h4>04</h4>
-                <h1 class="size-50">Contact  Me</h1>
-                <div class="h-50"></div>
-            </div> -->
-            <div class="col-md-4" data-aos="fade-up">
-                <h4>06</h4>
-                <h1 class="size-50">Contact  Me</h1>
-                <div class="h-50"></div>
-                <h3>Email:</h3>
-                <p>kwong6@nd.edu</p>
-                <h3>Other:</h3>
-                <ul class="social_links">
-                    <li class="twitter social_icons dark"><a href="https://www.linkedin.com/in/kekoa-wong/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="twitter social_icons dark"><a href="https://github.com/kekoawong" target="_blank"><i class="fa fa-github-square"></i></a></li>
-                    <li class="twitter social_icons dark"><a href="https://gitlab.com/kwong6" target="_blank"><i class="fa fa-gitlab"></i></a></li>
-                </ul>
-                <!-- <ul class="social">
-                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-                    <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
-                </ul> -->
-                <div class="clearfix"></div>
-                <div class="h-50"></div>
-            </div>
-            <div class="col-md-8" data-aos="fade-up">
-                <div class="gif-container">
-                    <img class="contact-gif" src="img/contact.gif">
+    <!-- Contact  -->
+    <div class="section white-bg">
+        <div class="container" id="contact">
+            <div class="col-md" data-aos="fade-up">
+                <div class="section-header">
+                    <h4>04</h4>
+                    <h1 class="size-50">Contact</h1>
+                </div>
+                <!-- contact div -->
+                <div class="container top-container" data-aos="fade-up">
+                    <div class="col-md contact">
+                        <div class="contact-icon col-md-2">
+                            <i class="fa fa-address-book"></i>
+                        </div>
+                        <div class="contact-stuff col-md-6">
+                            <h3><a href="mailto:kwong6@nd.edu" target="_blank"><i class="fa fa-envelope contact-subicon"></i>kwong6@nd.edu</a></h3>
+                            <h3><a href="https://www.linkedin.com/in/kekoa-wong/" target="_blank"><i class="fa fa-linkedin contact-subicon"></i>@kekoawong</a></h3>
+                            <h3><a href="https://github.com/kekoawong" target="_blank"><i class="fa fa-github-square contact-subicon"></i>@kekoawong</a></h3>
+                        </div>
+                        <div class="contact-plane col-md-3">
+                            <img class="contact-gif" src="img/plane.gif" alt="I would be happy to chat!">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- <div class="col-md-8" data-aos="fade-up">
-                <form class="contact-bg" id="contact-form" name="contact" method="post" novalidate="novalidate">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" />
-                    <input type="email" name="email" class="form-control" placeholder="Your E-mail" />
-                    <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
-                    <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
-                    <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
-                    <div id="success">
-                        <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
-                    </div>
-                    <div id="error">
-                        <p> Something went wrong, try refreshing and submitting the form again. </p>
-                    </div>
-                </form>
-            </div> -->
         </div>
     </div>
-    <!-- ./contact -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -545,7 +241,9 @@
 
     <!--  main script  -->
     <script src="js/custom.js"></script>
-    <script src="js/make_books.js"></script>
+    <script src="renderjs/make_books.js"></script>
+    <script type="module" src="renderjs/education.js"></script>
+    <script type="module" src="renderjs/experience.js"></script>
 </body>
 
 </html>

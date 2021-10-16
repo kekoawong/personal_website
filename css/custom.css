@@ -1,3 +1,62 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contact-icon {
+    font-size: 20rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact-plane {
+    font-size: 10rem;
+    margin: 2rem;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contact-subicon {
+    margin: 2rem;
+}
+
+.contact a {
+    color: #333;
+}
+
+.contact h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contact-stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-image {
+    border-radius: 10px;
+}
+
+.white-bg {
+    background-image: linear-gradient(white, lightgrey);
+}
+
+.grey-bg {
+    background-image: linear-gradient(lightgrey, white, #f3f3f3, white);
+}
+
 .overlay-image {
     background: black;
 }
@@ -15,6 +74,14 @@
 
 .top-margin {
     margin-top: 10px;
+}
+
+.about-img-div {
+    margin-top: 30px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .social_links {
@@ -105,7 +172,7 @@
 
 .contact-gif {
     object-fit: contain;
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .experience-header {
@@ -213,37 +280,6 @@
 .education-container .skill-icon {
     margin-left: 7px;
     margin-right: 0px;
-}
-
-#education {
-    padding: 100px 0;
-    background: #f3f3f3
-}
-
-#education p {
-    font-size: 17px;
-}
-
-#education li {
-    font-size: 17px;
-}
-
-#education a {
-    font-weight: 700;
-    color: #333;
-}
-
-#education a:hover {
-    color: #425BB5;
-}
-
-#education h3 {
-    margin-bottom: 2px;
-    font-weight: 600
-}
-
-#education h5 {
-    margin-top: 0;
 }
 
 #bookshelf {
