@@ -47,7 +47,7 @@ export function container(dataObject) {
     let subheading = dataObject["subheading"] || '';
     let link = dataObject["link"] || '#';
     let logo = dataObject["logo"] || '#';
-    let location_html = dataObject["location"] ? `<h5><i class="fa fa-map-marker fa-large" aria-hidden="true"></i> ${dataObject["location"]}</h5>` : '';
+    let location_html = dataObject["location"] ? `<h5><i class="fa fa-map-marker" aria-hidden="true"></i> ${dataObject["location"]}</h5>` : '';
     let listItems = dataObject["listItems"] || [];
     let bottomInfo = dataObject["bottomInfo"] || [];
     let buttons = dataObject["buttons"] || '';
