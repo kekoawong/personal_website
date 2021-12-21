@@ -1,23 +1,41 @@
 
 
 export function projectContainer(projectData) {
+    /*
+        Pass in object with the following values:
+            {
+                "title": string
+                "explanation": string
+                "tags": list of strings of tags
+                    Supported Values: 
+                        ml (Machine Learning) 
+                        phil (philosophy)
+                        sd (Software Development)
+                        python
+                        rn (React Native)
+                        te (Technology Ethics)
+                        design
+                "date": string of completed date
+                "logo": string
+                "location": string
+                "listItems": list of string sentences
+                "bottomInfo": dictionary with keys and values that will correspond to { Bolded idea: Sentence }
+                "buttons": dictionary with keys and values that will correspond to { Button Title: link }
+            }
+    */
 
     // set default values
-    let heading = dataObject["heading"] || '';
-    let subheading = dataObject["subheading"] || '';
-    let link = dataObject["link"] || '#';
-    let logo = dataObject["logo"] || '#';
-    let location_html = dataObject["location"] ? `<h5><i class="fa fa-map-marker" aria-hidden="true"></i> ${dataObject["location"]}</h5>` : '';
-    let listItems = dataObject["listItems"] || [];
-    let bottomInfo = dataObject["bottomInfo"] || [];
-    let buttons = dataObject["buttons"] || '';
+    let title = projectData["title"] || '';
+    let explanation = projectData["explanation"] || '';
+    let tags = projectData["tags"] || [];
 
+    let date = projectData["date"] || null;
     let link = projectData["link"] || null;
     let github = projectData["github"] || null;
     let file = projectData["file"] || null;
 
     return `
-        <div class="col-md-4 col-sm-6  engineering">
+        <div class="col-md-4 col-sm-6  ${tags.join(' ')}">
             <div class="portfolio_item">
                 <img src="img/blank.png" alt="image" class="img-responsive" />
                 <div class="portfolio-overlay">
@@ -28,15 +46,17 @@ export function projectContainer(projectData) {
                         <i class="fa fa-facebook"></i>
                     </div>
                     <div class="portfolio-text">
-                        <h2><strong>Title</strong></h2>
-                        <p>Explanation</p>
+                        <h2><strong>${title}</strong></h2>
+                        <p>${explanation}</p>
                     </div>
                     <div class="portfolio-bottom">
-                        <h3><i class="fa fa-calendar-check"></i> date</h3>
                         <h3>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-chain"></i></a>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github"></i></i></a>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-file"></i></a>
+                            ${date ? `<i class="fa fa-calendar-check"></i> ${date}` : '' }
+                        </h3>
+                        <h3>
+                            ${link ? `<a href="${link}" target="_blank"><i class="fa fa-chain"></i></a>` : ''}
+                            ${github ? `<a href="${github}" target="_blank"><i class="fa fa-github"></a>` : ''}
+                            ${file ? `<a href="${file}" target="_blank"><i class="fa fa-file"></i></a>` : ''}
                         </h3>
                     </div>
                 </div>
