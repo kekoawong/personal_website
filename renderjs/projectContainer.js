@@ -8,6 +8,7 @@ function generateTags(tags) {
             python
             rn (React Native)
             te (Technology Ethics)
+            ds (Data Science)
     */
     let tagIcons = {
         "ml": "img/icons/ml.png",
@@ -15,7 +16,8 @@ function generateTags(tags) {
         "sd": "img/icons/software.png",
         "python": "img/icons/python.png",
         "rn": "img/icons/react.png",
-        "te": "img/icons/agency.png"
+        "te": "img/icons/agency.png",
+        "ds": "img/icons/data_science.png"
     }
     let html = ''
     for (let tag of tags){
@@ -34,14 +36,7 @@ export function projectContainer(projectData) {
                 "title": string
                 "explanation": string
                 "tags": list of strings of tags
-                    Supported Values: 
-                        ml (Machine Learning) 
-                        phil (philosophy)
-                        sd (Software Development)
-                        python
-                        rn (React Native)
-                        te (Technology Ethics)
-                        design
+                    Supported Values: look above
                 "date": string of completed date
                 "link": string with link
                 "github": string with link to github

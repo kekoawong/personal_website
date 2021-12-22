@@ -4,7 +4,7 @@ let projects = [
     {
         "title": "Unsupervised Translation",
         "explanation": "Built neural networks in PyTorch and used natural language processing principles to create an unsupervised translation system for the purpose of translating text styles without a parallel dataset.",
-        "tags": ["ml", "python"],
+        "tags": ["ml", "ds", "python"],
         "date": "December 2021",
         "github": "https://github.com/kekoawong/UnsupervisedLanguageTranslation"
     },
@@ -39,7 +39,7 @@ let projects = [
     {
         "title": "Political Tweet Classifier",
         "explanation": "Utilized libraries such as pandas, sklearn, pickle, keras, tensorflow, and nltk to build classification models from decision trees, Naïve Bayes, SVMs, and neural networks to predict party affiliation of a given user.",
-        "tags": ["ml", "python"],
+        "tags": ["ml", "ds", "python"],
         "date": "November 2020",
         "file": "pdf/TweetMLClassification.pdf",
         "github": "https://github.com/kekoawong/tweet_classification"
@@ -54,7 +54,7 @@ let projects = [
     {
         "title": "Wikipedia Parsers",
         "explanation": "Developed reusable and efficient scripts to parse large amounts of wikipedia traffic data, organizing data into compatible structures for inference scripts.",
-        "tags": ["python"],
+        "tags": ["ds", "python"],
         "date": "April 2020",
         "github": "https://github.com/kekoawong/wikipedia_parsers"
     }
