@@ -8,7 +8,7 @@ let education = [
         "logo": "img/nd_logo.png",
         "location": "Notre Dame, Indiana, USA",
         "listItems": ["Pursuing a BS from the College of Engineering with majors in Computer Engineering and Philosophy.",
-                        "3x Dean's List for College of Engineering."
+                        "5x Dean's List for College of Engineering."
                     ],
         "bottomInfo": {"Philosophy Coursework": 
                     "Philosophy of Music, Ethics and Policy in Technology Management, Game Theory, Simulating Politics and Foreign Affairs, Science and Social Values, Ancient and Medieval Philosophy, Justice Seminar, Censorship and Propaganda, Formal Logic, Ethics and Politics, Modern Philosophy.",
