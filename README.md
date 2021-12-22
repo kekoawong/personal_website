@@ -4,11 +4,6 @@ Come visit the site at https://kekoawong.com/
 
 Developed with JavaScript, HTML, and CSS
 
-## Dependencies
-* [FontAwesome](https://fontawesome.com/)
-* [IonIcons](https://ionicons.com/v4/)
-* [ClipArt](https://www.clipart.com/)
-
 ## Organization
 
 Repository is organized into the following format:
@@ -18,6 +13,10 @@ Repository is organized into the following format:
 * **css**: CSS files for styling.
 * **fonts, img, ionicons, and pdf**: Various files and resources.
 
+## Dependencies
+* [FontAwesome](https://fontawesome.com/)
+* [IonIcons](https://ionicons.com/v4/)
+* [ClipArt](https://www.clipart.com/)
 
 ## Credits:
 

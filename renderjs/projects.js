@@ -31,7 +31,7 @@ let projects = [
     },
     {
         "title": "Personal Website",
-        "explanation": "Built this personal website using JavaScript, CSS, and HTML. Hosted at kekoawong.com",
+        "explanation": "Built this personal website using JavaScript, CSS, and HTML. Hosted at kekoawong.com.",
         "tags": ["sd"],
         "date": "In Progress",
         "github": "https://github.com/kekoawong/personal_website"
