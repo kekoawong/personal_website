@@ -17,11 +17,11 @@ function generateTags(tags) {
         "rn": "img/icons/react.png",
         "te": "img/icons/agency.png"
     }
-    html = ''
-    for (let tag in tags){
-        html += `<img src=${tagIcons[tag]} class="skill-icon">\n`
+    let html = ''
+    for (let tag of tags){
+        html += `<img src=${tagIcons[tag]} class="skill-icon">`
     }
-
+    return html
 }
 
 
@@ -41,11 +41,9 @@ export function projectContainer(projectData) {
                         te (Technology Ethics)
                         design
                 "date": string of completed date
-                "logo": string
-                "location": string
-                "listItems": list of string sentences
-                "bottomInfo": dictionary with keys and values that will correspond to { Bolded idea: Sentence }
-                "buttons": dictionary with keys and values that will correspond to { Button Title: link }
+                "link": string with link
+                "github": string with link to github
+                "file": string link to file
             }
     */
 
