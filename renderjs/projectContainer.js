@@ -1,3 +1,28 @@
+function generateTags(tags) {
+    /*
+        will take a list of tags
+        Supported Values: 
+            ml (Machine Learning) 
+            phil (philosophy)
+            sd (Software Development)
+            python
+            rn (React Native)
+            te (Technology Ethics)
+    */
+    let tagIcons = {
+        "ml": "img/icons/ml.png",
+        "phil": "img/icons/ethical.png",
+        "sd": "img/icons/software.png",
+        "python": "img/icons/python.png",
+        "rn": "img/icons/react.png",
+        "te": "img/icons/agency.png"
+    }
+    html = ''
+    for (let tag in tags){
+        html += `<img src=${tagIcons[tag]} class="skill-icon">\n`
+    }
+
+}
 
 
 export function projectContainer(projectData) {
@@ -40,10 +65,7 @@ export function projectContainer(projectData) {
                 <img src="img/blank.png" alt="image" class="img-responsive" />
                 <div class="portfolio-overlay">
                     <div class="portfolio-icons">
-                        <img src="img/icons/design.png" class="skill-icon">
-                        <i class="fa fa-envelope"></i>
-                        <i class="fa fa-github"></i>
-                        <i class="fa fa-facebook"></i>
+                        ${generateTags(tags)}
                     </div>
                     <div class="portfolio-text">
                         <h2><strong>${title}</strong></h2>

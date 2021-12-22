@@ -503,6 +503,10 @@ a.active {
     color: #333;
 }
 
+.portfolio_item a:hover{
+    color: #23527c;
+}
+
 .portfolio_item .portfolio_item_hover {
     position: absolute;
     top: 0px;
