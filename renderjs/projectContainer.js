@@ -57,7 +57,7 @@ export function projectContainer(projectData) {
     let date = projectData["date"] || null;
     let link = projectData["link"] ? `<a href="${projectData["link"]}" target="_blank"><i class="fa fa-chain"></i></a>` : '';
     let github = projectData["github"] ? `<a href="${projectData["github"]}" target="_blank"><i class="fa fa-github "></i></a>` : '';
-    let file = projectData["file"] ? `<a href="${projectData["file"]}" target="_blank"><i class="fa fa-file"></i></a>` : '';
+    let file = projectData["file"] ? `<a href="${projectData["file"]}" target="_blank"><i class="fa fa-file-alt"></i></a>` : '';
 
     console.log(github);
     return `

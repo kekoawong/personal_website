@@ -3,14 +3,14 @@ import { projectContainer } from "./projectContainer.js";
 let projects = [
     {
         "title": "Unsupervised Translation",
-        "explanation": "Used neural networks built in PyTorch and natural language processing techniques to build a unsupervised translation system for the purpose of translating text styles without a parallel dataset.",
+        "explanation": "Built neural networks in PyTorch and used natural language processing principles to create an unsupervised translation system for the purpose of translating text styles without a parallel dataset.",
         "tags": ["ml", "python"],
         "date": "December 2021",
         "github": "https://github.com/kekoawong/UnsupervisedLanguageTranslation"
     },
     {
         "title": "CampusWayzz",
-        "explanation": "Designed and developed a mobile app using a MERN stack (MongoDB, Express.js, React Native, Node.js) for college campus discovery.",
+        "explanation": "Designed and developed a mobile app using a MERN stack (MongoDB, Express.js, React Native, Node.js) for college campus discovery. Utilized frontend libraries such as React Navigation and React Native Paper to create a strong UI.",
         "tags": ["sd", "rn"],
         "date": "April 2021",
         "github": "https://github.com/kekoawong/campuswayzz"
