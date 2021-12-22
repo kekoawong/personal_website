@@ -8,8 +8,8 @@
     <title>Kekoa Wong</title>
     <link rel="icon" href="img/icons/KW_logo.png" type="image/x-icon">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap -->
+    <script src="https://kit.fontawesome.com/2a1bb21b50.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
@@ -112,7 +112,7 @@
      <!-- projects -->
      <div class="section grey-bg" >
         <div class="container">
-            <div class="col-md-12" id="projects">
+            <div class="col-md-12">
                 <h4>04</h4>
                 <h1 class="size-50">Projects</h1> 
             </div>
@@ -120,95 +120,28 @@
             <div class="main-container portfolio-inner clearfix">
                 <!-- portfolio div -->
                 <div class="portfolio-div">
-                    <div class="portfolio">
+                    <div class="portfolio" id="projects">
                         <!-- portfolio_filter -->
                         <div class="categories-grid wow fadeInLeft">
                             <nav class="categories">
                                 <ul class="portfolio_filter">
-                                    <li><a href="" class="active" data-filter="*">All</a></li>
-                                    <li><a href="" data-filter=".engineering">Engineering</a></li>
+                                    <li><a href="" class="active" data-filter="*"><img src="img/icons/all.png" class="skill-icon"> All</a></li>
+                                    <li><a href="" data-filter=".ml"><img src="img/icons/ml.png" class="skill-icon"> Machine Learning</a></li>
+                                    <li><a href="" data-filter=".te"><img src="img/icons/agency.png" class="skill-icon"> Technology Ethics</a></li>
+                                    <li><a href="" data-filter=".sd"><img src="img/icons/software.png" class="skill-icon"> Software Development</a></li>
+                                    <li><a href="" data-filter=".phil"><img src="img/icons/ethical.png" class="skill-icon"> Philosophy</a></li>
+                                    <li><a href="" data-filter=".python"><img src="img/icons/python.png" class="skill-icon"> Python</a></li>
+                                    <li><a href="" data-filter=".rn"><img src="img/icons/react.png" class="skill-icon"> React</a></li>
                                 </ul>
                             </nav>
                         </div>
                         <!-- portfolio_filter -->
                         
                         <!-- portfolio_container -->
-                        <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6  engineering">
-                                <a href="pdf/Us_and_AI.pdf" target="_blank" class="portfolio_item"> <img src="img/nd_logo.png" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Us and AI</span>
-                                                <em>Senior thesis that asserts the capacity of our relationship with computational beings.</em>
-                                                <br><em><i class="fa fa-github fa-3x"></i></em>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6  engineering">
-                                <a href="https://github.com/kekoawong/tweet_classification" target="_blank" class="portfolio_item"> <img src="img/twitter_politics.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Tweet Classification</span>
-                                                <em>Built a ML classifier to predict the party affiliation of a user based on an individual tweet.</em>
-                                                <br><em><i class="fa fa-github fa-3x"></i></em>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6  engineering">
-                                <a href="https://gitlab.com/pchun/cse-20289-sp20-project" target="_blank" class="portfolio_item"> <img src="img/server.png" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Web Server</span>
-                                                <em>Built a basic web server in C.</em> <br>
-                                                <em><i class="fa fa-github fa-3x"></i></em>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6  engineering">
-                                <a href="https://github.com/kekoawong/racecar_game" target="_blank" class="portfolio_item"> <img src="img/racecar.png" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Racecar Game</span>
-                                                <em>Designed and created racecar game written in C++.</em>
-                                                <br>
-                                                <em><i class="fa fa-github fa-3x"></i></em>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6  engineering">
-                                <a href="https://github.com/pdavis322/NLP-Group-11" target="_blank" class="portfolio_item"> <img src="img/twitter_robot.png" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Social Media Robot</span>
-                                                <em>Built a social media robot using twitter API and NLTK library.</em><br>
-                                                <em><i class="fa fa-github fa-3x"></i></em>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
+                        <div class="no-padding portfolio_container clearfix" data-aos="fade-up" id="project-items">
                         </div>
                         <!-- end portfolio_container -->
+
                     </div>
                     <!-- portfolio -->
                 </div>
@@ -256,7 +189,7 @@
 
     <!--  main script  -->
     <script src="js/custom.js"></script>
-    <script src="renderjs/make_books.js"></script>
+    <script type="module" src="renderjs/projects.js"></script>
     <script type="module" src="renderjs/education.js"></script>
     <script type="module" src="renderjs/experience.js"></script>
 </body>

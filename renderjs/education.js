@@ -4,7 +4,7 @@ let education = [
     {
         "heading": "University of Notre Dame",
         "subheading": "2018-2022 | GPA: 3.80",
-        "link": "https://sites.google.com/puhsd.k12.ca.us/delorohigh/home",
+        "link": "https://www.nd.edu/",
         "logo": "img/nd_logo.png",
         "location": "Notre Dame, Indiana, USA",
         "listItems": ["Pursuing a BS from the College of Engineering with majors in Computer Engineering and Philosophy.",
