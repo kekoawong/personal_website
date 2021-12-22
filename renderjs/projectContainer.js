@@ -59,7 +59,6 @@ export function projectContainer(projectData) {
     let github = projectData["github"] ? `<a href="${projectData["github"]}" target="_blank"><i class="fa fa-github "></i></a>` : '';
     let file = projectData["file"] ? `<a href="${projectData["file"]}" target="_blank"><i class="fa fa-file-alt"></i></a>` : '';
 
-    console.log(github);
     return `
         <div class="col-md-4 col-sm-6  ${tags.join(' ')}">
             <div class="portfolio_item">
