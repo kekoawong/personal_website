@@ -53,10 +53,11 @@ export function projectContainer(projectData) {
     let tags = projectData["tags"] || [];
 
     let date = projectData["date"] || null;
-    let link = projectData["link"] || null;
-    let github = projectData["github"] || null;
-    let file = projectData["file"] || null;
+    let link = projectData["link"] ? `<a href="${projectData["link"]}" target="_blank"><i class="fa fa-chain"></i></a>` : '';
+    let github = projectData["github"] ? `<a href="${projectData["github"]}" target="_blank"><i class="fa fa-github "></i></a>` : '';
+    let file = projectData["file"] ? `<a href="${projectData["file"]}" target="_blank"><i class="fa fa-file"></i></a>` : '';
 
+    console.log(github);
     return `
         <div class="col-md-4 col-sm-6  ${tags.join(' ')}">
             <div class="portfolio_item">
@@ -70,13 +71,13 @@ export function projectContainer(projectData) {
                         <p>${explanation}</p>
                     </div>
                     <div class="portfolio-bottom">
+                        <h5>
+                            ${date ? `<strong><i class="fa fa-calendar-check"></i> ${date}</strong>` : '' }
+                        </h5>
                         <h3>
-                            ${date ? `<i class="fa fa-calendar-check"></i> ${date}` : '' }
-                        </h3>
-                        <h3>
-                            ${link ? `<a href="${link}" target="_blank"><i class="fa fa-chain"></i></a>` : ''}
-                            ${github ? `<a href="${github}" target="_blank"><i class="fa fa-github"></a>` : ''}
-                            ${file ? `<a href="${file}" target="_blank"><i class="fa fa-file"></i></a>` : ''}
+                        ${link}
+                        ${github}
+                        ${file}
                         </h3>
                     </div>
                 </div>
