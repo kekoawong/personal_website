@@ -582,6 +582,7 @@ a.active {
     padding: 0 10px;
     -webkit-transition: all .2s ease-in-out .2s;
     transition: all .2s ease-in-out .2s;
+    border-radius: 10px
 }
 
 .portfolio_filter {
