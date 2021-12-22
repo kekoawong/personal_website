@@ -1,14 +1,19 @@
 # Kekoa Wong's Personal Website
 
-Come visit the site at https://kekoawong.com/
+Come visit the site at https://kekoawong.com/!
 
-Developed with JavaScript, HTML, and CSS
+Developed with JavaScript, HTML, and CSS.
 
 ## Organization
 
 Repository is organized into the following format:
 * **index.html**: HTML backbone of the website, written to be as simple and bare as possible.
-* **renderjs**: The main directory of the site, containing the JavaScript files that render the html elements with considerations toward scale. The files container.js and projectContainer.js contain the only two types of elements rendered on the site. The files education.js, experience.js, and projects.js contain the site data and render the elements with this data.
+* **renderjs**: The main directory of the site, containing the JavaScript files that render the html elements with considerations toward scale. The files 
+    * **container.js**: Component that renders in the *education* and *experience* sections.
+    * **projectContainer.js**: Component that renders in the *projects* section. 
+    * **education.js**: Contains the data for the *education* section and renders the container elements for each data entry.
+    * **experience.js**: Contains the data for the *experience* section and renders the container elements for each data entry.
+    * **projects.js**: Contains the data for the *projects* section and renders the projectContainer elements for each data entry.
 * **animatejs**: Contains JavaScript files used to animate the website features.
 * **css**: CSS files for styling.
 * **fonts, img, ionicons, and pdf**: Various files and resources.
