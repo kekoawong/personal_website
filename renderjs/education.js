@@ -3,7 +3,7 @@ import { container } from "./container.js";
 let education = [
     {
         "heading": "University of Notre Dame",
-        "subheading": "2018-2022 | GPA: 3.80",
+        "subheading": "2018-2022 | GPA: 3.82",
         "link": "https://www.nd.edu/",
         "logo": "img/nd_logo.png",
         "location": "Notre Dame, Indiana, USA",
@@ -11,7 +11,7 @@ let education = [
                         "3x Dean's List for College of Engineering."
                     ],
         "bottomInfo": {"Philosophy Coursework": 
-                    "Ethics and Policy in Technology Management, Game Theory, Simulating Politics and Foreign Affairs, Seminar on Justice, Censorship and Propaganda, Formal Logic, Ethics and Politics, Modern Philosophy.",
+                    "Philosophy of Music, Ethics and Policy in Technology Management, Game Theory, Simulating Politics and Foreign Affairs, Science and Social Values, Ancient and Medieval Philosophy, Justice Seminar, Censorship and Propaganda, Formal Logic, Ethics and Politics, Modern Philosophy.",
                     "Engineering Coursework:": "AI and Social Good, Natural Language Processing, Data Structures, Data Science, Databases, Operating Systems, Computer Architecture, Electrical Signals and Systems, Electrical Circuits."
                 },
         "buttons": {"Department of Philosophy": "https://philosophy.nd.edu/",
