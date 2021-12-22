@@ -16,8 +16,8 @@ let projects = [
         "file": "pdf/Us_and_AI.pdf"
     },
     {
-        "title": "Mobile Boilerplate",
-        "explanation": "Developed a boilerplate mobile frontend with React Native and libraries such as React Navigation.",
+        "title": "Frontend Boilerplate",
+        "explanation": "Developed a mobile boilerplate frontend with React Native using Expo, Yarn, React Navigation, and React Native Elements.",
         "tags": ["sd", "rn"],
         "date": "July 2021",
         "github": "https://github.com/kekoawong/boilerplate",
