@@ -19,9 +19,11 @@ function generateTags(tags) {
     }
     let html = ''
     for (let tag of tags){
-        html += `<img src=${tagIcons[tag]} class="skill-icon">`
+        if (tag in tagIcons){
+            html += `<img src=${tagIcons[tag]} class="skill-icon">`;
+        }
     }
-    return html
+    return html;
 }
 
 
@@ -74,11 +76,11 @@ export function projectContainer(projectData) {
                         <h5>
                             ${date ? `<strong><i class="fa fa-calendar-check"></i> ${date}</strong>` : '' }
                         </h5>
-                        <h3>
+                        <h2>
                         ${link}
                         ${github}
                         ${file}
-                        </h3>
+                        </h2>
                     </div>
                 </div>
             </div>
