@@ -38,13 +38,13 @@ let projects = [
     },
     {
         "title": "Personal Website",
-        "explanation": "Built this personal website using JavaScript, CSS, and HTML. Hosted at kekoawong.com.",
+        "explanation": "Built this personal website using JavaScript, CSS, and HTML, rendering elements efficiently using JavaScript. Hosted at kekoawong.com.",
         "tags": ["sd"],
         "date": "In Progress",
         "github": "https://github.com/kekoawong/personal_website"
     },
     {
-        "title": "Eletrical Signals Scripts",
+        "title": "Electrical Signals Scripts",
         "explanation": "Developed scripts for solving problems relating to electrical signals with real and imaginary parts, using libraries such as scipy and sympy.",
         "tags": ["sp", "python"],
         "date": ["February 2021"],
