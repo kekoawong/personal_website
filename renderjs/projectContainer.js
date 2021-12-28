@@ -10,7 +10,7 @@ function generateTags(tags) {
             te (Technology Ethics)
             ds (Data Science)
             sp (Signal Processing)
-            c++
+            c
     */
     let tagIcons = {
         "ml": "img/icons/ml.png",
@@ -21,7 +21,7 @@ function generateTags(tags) {
         "te": "img/icons/agency.png",
         "ds": "img/icons/data_science.png",
         "sp": "img/icons/sound.png",
-        "c++": "img/icons/c++.png"
+        "c": "img/icons/c++.png"
     }
     let html = ''
     for (let tag of tags){

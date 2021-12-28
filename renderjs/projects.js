@@ -10,8 +10,8 @@ let projects = [
     },
     {
         "title": "Arduino Tuner",
-        "explanation": "Using signal processing principles learned from electrical engineering courses, constructed a tuner integrating hardware elements and an algorithm for Fast Fourier Transforms and musical note identification.",
-        "tags": ["sp", "c++"],
+        "explanation": "Using signal processing principles learned from electrical engineering courses, constructed a tuner integrating hardware elements and an algorithm with Fast Fourier Transforms and musical note identification.",
+        "tags": ["sp", "c"],
         "date": "November 2021",
         "github": "https://github.com/kekoawong/ArduinoGuiterTuner"
     },
