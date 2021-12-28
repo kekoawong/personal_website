@@ -60,7 +60,7 @@ let projects = [
     },
     {
         "title": "Idea Center Marketplace",
-        "explanation": "Prototyped marketplace for innovation lab products, using Sharetribe Flex and ReactJS.",
+        "explanation": "Prototyped marketplace for innovation lab products, using a Sharetribe Flex template and ReactJS.",
         "tags": ["sd", "rn"],
         "date": "August 2020",
         "github": "https://github.com/kekoawong/idea-marketplace"
@@ -71,6 +71,13 @@ let projects = [
         "tags": ["ds", "python"],
         "date": "April 2020",
         "github": "https://github.com/kekoawong/wikipedia_parsers"
+    },
+    {
+        "title": "Ideological Control and Social Media",
+        "explanation": "Surveyed censorship tactics of different nations in response to developing problems of misinformation and foreign political intereference across social media.",
+        "tags": ["te"],
+        "date": "May 2019",
+        "file": "pdf/Ideological_Control_and_Social_Media.pdf"
     }
 ];
 
