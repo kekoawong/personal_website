@@ -9,6 +9,8 @@ function generateTags(tags) {
             rn (React Native)
             te (Technology Ethics)
             ds (Data Science)
+            sp (Signal Processing)
+            c++
     */
     let tagIcons = {
         "ml": "img/icons/ml.png",
@@ -17,7 +19,9 @@ function generateTags(tags) {
         "python": "img/icons/python.png",
         "rn": "img/icons/react.png",
         "te": "img/icons/agency.png",
-        "ds": "img/icons/data_science.png"
+        "ds": "img/icons/data_science.png",
+        "sp": "img/icons/sound.png",
+        "c++": "img/icons/c++.png"
     }
     let html = ''
     for (let tag of tags){

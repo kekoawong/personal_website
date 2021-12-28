@@ -9,6 +9,13 @@ let projects = [
         "github": "https://github.com/kekoawong/UnsupervisedLanguageTranslation"
     },
     {
+        "title": "Arduino Tuner",
+        "explanation": "Using signal processing principles learned from electrical engineering courses, constructed a tuner integrating hardware elements and an algorithm for Fast Fourier Transforms and musical note identification.",
+        "tags": ["sp", "c++"],
+        "date": "November 2021",
+        "github": "https://github.com/kekoawong/ArduinoGuiterTuner"
+    },
+    {
         "title": "Us and AI",
         "explanation": "Authored a 30-page philosophical thesis exploring the relationship between AI and human beings, theorizing over the nature of their respective selves while proposing ethical standards.",
         "tags": ["te", "phil"],
