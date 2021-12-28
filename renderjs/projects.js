@@ -10,7 +10,7 @@ let projects = [
     },
     {
         "title": "Hume's Human Action and AI",
-        "explanation": "This paper explores the contradictions that arise in Hume’s account of human action due to the moral responsibility of AI in today’s society using his ideas of liberty, necessity, and moral sentimentalism",
+        "explanation": "This paper explores the contradictions that arise in Hume’s account of human action due to the moral responsibility of AI in today’s society, referencing his ideas of liberty, necessity, and moral sentimentalism",
         "tags": ["phil", "te"],
         "date": "December 2021",
         "file": "pdf/AI-Hume.pdf"
