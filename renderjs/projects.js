@@ -9,6 +9,13 @@ let projects = [
         "github": "https://github.com/kekoawong/UnsupervisedLanguageTranslation"
     },
     {
+        "title": "Hume's Human Action and AI",
+        "explanation": "This paper explores the contradictions that arise in Hume’s account of human action due to the moral responsibility of AI in today’s society using his ideas of liberty, necessity, and moral sentimentalism",
+        "tags": ["phil", "te"],
+        "date": "December 2021",
+        "file": "pdf/AI-Hume.pdf"
+    },
+    {
         "title": "Arduino Tuner",
         "explanation": "Applying signal processing principles learned from electrical engineering courses, constructed a tuner integrating hardware elements and an algorithm with Fast Fourier Transforms and musical note identification.",
         "tags": ["sp", "c"],
