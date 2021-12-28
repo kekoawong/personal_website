@@ -10,7 +10,7 @@ let projects = [
     },
     {
         "title": "Arduino Tuner",
-        "explanation": "Using signal processing principles learned from electrical engineering courses, constructed a tuner integrating hardware elements and an algorithm with Fast Fourier Transforms and musical note identification.",
+        "explanation": "Applying signal processing principles learned from electrical engineering courses, constructed a tuner integrating hardware elements and an algorithm with Fast Fourier Transforms and musical note identification.",
         "tags": ["sp", "c"],
         "date": "November 2021",
         "github": "https://github.com/kekoawong/ArduinoGuiterTuner"
@@ -42,6 +42,13 @@ let projects = [
         "tags": ["sd"],
         "date": "In Progress",
         "github": "https://github.com/kekoawong/personal_website"
+    },
+    {
+        "title": "Eletrical Signals Scripts",
+        "explanation": "Developed scripts for solving problems relating to electrical signals with real and imaginary parts, using libraries such as scipy and sympy.",
+        "tags": ["sp", "python"],
+        "date": ["February 2021"],
+        "github": "https://github.com/kekoawong/eletricalSignalsScripts"
     },
     {
         "title": "Political Tweet Classifier",
