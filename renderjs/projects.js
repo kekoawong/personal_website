@@ -46,7 +46,7 @@ let projects = [
     {
         "title": "Humane Entrepreneurship",
         "explanation": "Using research into stakeholder capitalism, behavioral economics, and organizational infrastructure, proposed a new type of business framework that would cultivate a more humane form of entrepreneurship.",
-        "tags": ["te", "phil"],
+        "tags": ["te"],
         "date": "April 2021",
         "file": "pdf/The_Pledge_Organization.pdf"
     },
