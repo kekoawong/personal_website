@@ -11,7 +11,7 @@ let projects = [
     {
         "title": "Hume's Human Action and AI",
         "explanation": "This paper explores the contradictions that arise in Hume’s account of human action due to the moral responsibility of AI in today’s society, referencing his ideas of liberty, necessity, and moral sentimentalism",
-        "tags": ["phil", "te"],
+        "tags": ["te", "phil"],
         "date": "December 2021",
         "file": "pdf/AI-Hume.pdf"
     },
@@ -45,7 +45,7 @@ let projects = [
     },
     {
         "title": "Humane Entrepreneurship",
-        "explanation": "Using research into stakeholder capitalism, behavioral economics, and organizational infrastructure, this paper proposes a new type of business framework that would cultivate amore virtuous and humane form of entrepreneurship.",
+        "explanation": "Using research into stakeholder capitalism, behavioral economics, and organizational infrastructure, proposed a new type of business framework that would cultivate a more humane form of entrepreneurship.",
         "tags": ["te", "phil"],
         "date": "April 2021",
         "file": "pdf/The_Pledge_Organization.pdf"
