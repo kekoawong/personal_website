@@ -44,6 +44,13 @@ let projects = [
         "github": "https://github.com/kekoawong/campuswayzz"
     },
     {
+        "title": "Humane Entrepreneurship",
+        "explanation": "Using research into stakeholder capitalism, behavioral economics, and organizational infrastructure, this paper proposes a new type of business framework that would cultivate amore virtuous and humane form of entrepreneurship.",
+        "tags": ["te", "phil"],
+        "date": "April 2021",
+        "file": "pdf/The_Pledge_Organization.pdf"
+    },
+    {
         "title": "Personal Website",
         "explanation": "Built this personal website using JavaScript, CSS, and HTML, rendering elements efficiently using JavaScript. Hosted at kekoawong.com.",
         "tags": ["sd"],
