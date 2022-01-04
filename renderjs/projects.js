@@ -2,6 +2,14 @@ import { projectContainer } from "./projectContainer.js";
 
 let projects = [
     {
+        "title": "Evolve Rating",
+        "explanation": "Researching how to build a rating system that creates analogous ratings for both players and teams, extending from elo and Microsoft's TrueSkill ranking. Using csv and pandas to efficiently handle data along with plotly for interactive visualizations.",
+        "tags": ["ds", "python"],
+        "date": "In Progress",
+        "link": "https://kekoawong.github.io/evolveRating/",
+        "github": "https://github.com/kekoawong/evolveRating"
+    },
+    {
         "title": "Unsupervised Translation",
         "explanation": "Built neural networks in PyTorch and used natural language processing principles to create an unsupervised translation system for the purpose of translating text styles without a parallel dataset.",
         "tags": ["ml", "ds", "python"],
