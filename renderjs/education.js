@@ -10,12 +10,17 @@ let education = [
         "listItems": ["Pursuing a BS from the College of Engineering with majors in Computer Engineering and Philosophy.",
                         "5x Dean's List for College of Engineering."
                     ],
-        "bottomInfo": {"Philosophy Coursework": 
-                    "Philosophy of Music, Ethics and Policy in Technology Management, Game Theory, Simulating Politics and Foreign Affairs, Science and Social Values, Ancient and Medieval Philosophy, Justice Seminar, Censorship and Propaganda, Formal Logic, Ethics and Politics, Modern Philosophy.",
-                    "Engineering Coursework:": "AI and Social Good, Natural Language Processing, Data Structures, Data Science, Databases, Operating Systems, Computer Architecture, Electrical Signals and Systems, Electrical Circuits."
+        "bottomInfo": {"Philosophy Coursework:": 
+                        "Philosophy of Music, Ethics and Policy in Technology Management, Game Theory, Simulating Politics and Foreign Affairs, Science and Social Values, Ancient and Medieval Philosophy, Justice Seminar, Censorship and Propaganda, Formal Logic, Ethics and Politics, Modern Philosophy.",
+                    "Engineering Coursework:": "AI and Social Good, Natural Language Processing, Data Structures, Data Science, Databases, Operating Systems, Computer Architecture, Electrical Signals and Systems, Electrical Circuits.",
+                    "Research Experience:": "Social Media Misinformation (2 semesters with Dr. Tim Weninger), Citation Gap Modeling (1 semester with Dr. Hannah Rubin), Data Visualization (1 semester with Dr. Chaoli Wang), Data Science Sports Team Ratings (1 semester with Dr. Meng Jiang)"
                 },
-        "buttons": {"Department of Philosophy": "https://philosophy.nd.edu/",
-                    "Department of Computer Science and Engineering": "https://cse.nd.edu/"
+        "buttons": {"Dr. Tim Weninger": "https://timweninger.com/",
+                "Dr. Hannah Rubin": "http://www.hannahrubin.net/",
+                "Dr. Chaoli Wang": "http://sites.nd.edu/chaoli-wang/",
+                "Dr. Meng Jiang": "http://www.meng-jiang.com/",
+                "Dep. of Philosophy": "https://philosophy.nd.edu/",
+                    "Dep. of Computer Science and Engineering": "https://cse.nd.edu/",
                 }
     },
     {
