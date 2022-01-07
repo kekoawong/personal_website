@@ -14,11 +14,11 @@ let experience = [
                         "Awarded $2.5k in funding and was offered a spot into LookUp’s leadership lab after carefully designing and successfully pitching a solution to digital wellbeing and humane technology."
                     ],
         "bottomInfo": {"Tech:": "React Native, JavaScript, Firebase, NodeJS, MobX, React Navigation, Hooks, Git, Expo, Yarn"},
-        "buttons": {"Apple Store": "https://apps.apple.com/us/app/eventurely/id1490342315",
-                    "Google Play": "https://play.google.com/store/apps/details?id=com.arrix.eventurely&hl=en_US&gl=US",
-                    "LinkedIn": "https://www.linkedin.com/company/eventurely/",
-                    "Facebook": "https://www.facebook.com/eventurely.app.1",
-                    "Instagram": "https://www.instagram.com/_eventurely_/"
+        "buttons": {"Apple Store": ["https://apps.apple.com/us/app/eventurely/id1490342315"],
+                    "Google Play": ["https://play.google.com/store/apps/details?id=com.arrix.eventurely&hl=en_US&gl=US", "android"],
+                    "LinkedIn": ["https://www.linkedin.com/company/eventurely/"],
+                    "Facebook": ["https://www.facebook.com/eventurely.app.1",],
+                    "Instagram": ["https://www.instagram.com/_eventurely_/", "instagram"]
                     }
     },
     {
@@ -31,8 +31,8 @@ let experience = [
                         "Conducted extensive research into compatible marketplace repositories to use as a foundation for the project and inspected documentation and code while presenting findings to the project manager."
                     ],
         "bottomInfo": {"Tech:": "ReactJS, JavaScript, HTML, CSS, Bootstrap, Yarn, NodeJS, Sharetribe FLEX"},
-        "buttons": {"Repository": "https://github.com/jaeyoungchang5/idea-marketplace",
-                    "Website": "https://ideacenter.nd.edu/"
+        "buttons": {"Repository": ["https://github.com/jaeyoungchang5/idea-marketplace", "github"],
+                    "Website": ["https://ideacenter.nd.edu/"]
                     }
     },
     {
@@ -45,8 +45,8 @@ let experience = [
                         "Authorized to conduct multi-core computational programs with Notre Dame’s Center for Research Computing on machines shared with professors and PhD students."
                     ],
         "bottomInfo": {"Tech:": "Python, Parallel Computing, Data Science, Pickle, JSON, Git, Bash, Parsing, Machine Learning"},
-        "buttons": {"Repository": "https://github.com/kekoawong/wikipedia_parsers",
-                    "Professor's Website": "https://timweninger.com/"
+        "buttons": {"Repository": ["https://github.com/kekoawong/wikipedia_parsers", "github"],
+                    "Professor's Website": ["https://timweninger.com/", "user"]
                     }
     },
     {
@@ -60,10 +60,10 @@ let experience = [
                         "Published as a contributor to the educational software toolkit, which is currently being used in the curriculum of an upper-level undergraduate/graduate course on data visualization at the University of Notre Dame."
                     ],
         "bottomInfo": {"Tech:": "JavaScript, D3.js, HTML, CSS, Git, Bash, JSON, Data Visualizations, Graph Networks"},
-        "buttons": {"GraphVisual": "https://www3.nd.edu/~cwang11/graphvisual/",
-                    "Publication": "https://www3.nd.edu/~cwang11/research/asee20-graphvisual.pdf",
-                    "Repository": "https://github.com/mimre25/graph-visual",
-                    "Professor's Website": "https://sites.nd.edu/chaoli-wang/"
+        "buttons": {"GraphVisual": ["https://www3.nd.edu/~cwang11/graphvisual/"],
+                    "Publication": ["https://www3.nd.edu/~cwang11/research/asee20-graphvisual.pdf"],
+                    "Repository": ["https://github.com/mimre25/graph-visual"],
+                    "Professor's Website": ["https://sites.nd.edu/chaoli-wang/"]
                     }
     },
 ];
