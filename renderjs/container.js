@@ -44,7 +44,7 @@ function createButtons(info) {
     let fa = 'link';
     for (const [key, value] of Object.entries(info)) {
         fa = value[1] ? value[1] : 'link';
-        icon = `<i class="fa fa-${fa} fa-lg"></i>`;
+        icon = `<i class="fa fa-${fa} "></i>`;
         html += `<button onclick="window.open('${value[0]}','_blank')">${icon} <strong> ${key}</strong></button>`;
     }
     return html;

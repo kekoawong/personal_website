@@ -14,10 +14,10 @@ let experience = [
                         "Awarded $2.5k in funding and was offered a spot into LookUp’s leadership lab after carefully designing and successfully pitching a solution to digital wellbeing and humane technology."
                     ],
         "bottomInfo": {"Tech:": "React Native, JavaScript, Firebase, NodeJS, MobX, React Navigation, Hooks, Git, Expo, Yarn"},
-        "buttons": {"Apple Store": ["https://apps.apple.com/us/app/eventurely/id1490342315"],
+        "buttons": {"Apple Store": ["https://apps.apple.com/us/app/eventurely/id1490342315", "apple"],
                     "Google Play": ["https://play.google.com/store/apps/details?id=com.arrix.eventurely&hl=en_US&gl=US", "android"],
-                    "LinkedIn": ["https://www.linkedin.com/company/eventurely/"],
-                    "Facebook": ["https://www.facebook.com/eventurely.app.1",],
+                    "LinkedIn": ["https://www.linkedin.com/company/eventurely/", "linkedin-square"],
+                    "Facebook": ["https://www.facebook.com/eventurely.app.1", "facebook-square"],
                     "Instagram": ["https://www.instagram.com/_eventurely_/", "instagram"]
                     }
     },
@@ -32,13 +32,13 @@ let experience = [
                     ],
         "bottomInfo": {"Tech:": "ReactJS, JavaScript, HTML, CSS, Bootstrap, Yarn, NodeJS, Sharetribe FLEX"},
         "buttons": {"Repository": ["https://github.com/jaeyoungchang5/idea-marketplace", "github"],
-                    "Website": ["https://ideacenter.nd.edu/"]
+                    "Website": ["https://ideacenter.nd.edu/", "link"]
                     }
     },
     {
         "heading": "Social Media Misinformation Research",
         "location": "Notre Dame, Indiana, USA",
-        "subheading": "Dr. Tim Wenginer | University of Notre Dame",
+        "subheading": "Dr. Tim Weninger | University of Notre Dame",
         "link": "https://timweninger.com/",
         "logo": "img/nd_logo.png",
         "listItems": ["Self-taught and carefully learned to write scalable code for large data sets that would operate efficiently and safely with memory on shared resources, creating models of topic activity scraped from online traffic.",
@@ -46,7 +46,7 @@ let experience = [
                     ],
         "bottomInfo": {"Tech:": "Python, Parallel Computing, Data Science, Pickle, JSON, Git, Bash, Parsing, Machine Learning"},
         "buttons": {"Repository": ["https://github.com/kekoawong/wikipedia_parsers", "github"],
-                    "Professor's Website": ["https://timweninger.com/", "user"]
+                    "Dr. Tim Weninger": ["https://timweninger.com/", "user"]
                     }
     },
     {
@@ -60,10 +60,10 @@ let experience = [
                         "Published as a contributor to the educational software toolkit, which is currently being used in the curriculum of an upper-level undergraduate/graduate course on data visualization at the University of Notre Dame."
                     ],
         "bottomInfo": {"Tech:": "JavaScript, D3.js, HTML, CSS, Git, Bash, JSON, Data Visualizations, Graph Networks"},
-        "buttons": {"GraphVisual": ["https://www3.nd.edu/~cwang11/graphvisual/"],
-                    "Publication": ["https://www3.nd.edu/~cwang11/research/asee20-graphvisual.pdf"],
-                    "Repository": ["https://github.com/mimre25/graph-visual"],
-                    "Professor's Website": ["https://sites.nd.edu/chaoli-wang/"]
+        "buttons": {"GraphVisual": ["https://www3.nd.edu/~cwang11/graphvisual/", "area-chart"],
+                    "Publication": ["https://www3.nd.edu/~cwang11/research/asee20-graphvisual.pdf", "file-text"],
+                    "Repository": ["https://github.com/mimre25/graph-visual", "github"],
+                    "Dr. Chaoli Wang": ["https://sites.nd.edu/chaoli-wang/", "user"]
                     }
     },
 ];
