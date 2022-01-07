@@ -15,12 +15,12 @@ let education = [
                     "Engineering Coursework:": "AI and Social Good, Natural Language Processing, Data Structures, Data Science, Databases, Operating Systems, Computer Architecture, Electrical Signals and Systems, Electrical Circuits.",
                     "Research Experience:": "Social Media Misinformation (2 semesters with Dr. Tim Weninger), Citation Gap Modeling (1 semester with Dr. Hannah Rubin), Data Visualization (1 semester with Dr. Chaoli Wang), Data Science Sports Team Ratings (1 semester with Dr. Meng Jiang)"
                 },
-        "buttons": {"Dr. Tim Weninger": ["https://timweninger.com/"],
-                "Dr. Hannah Rubin": ["http://www.hannahrubin.net/"],
-                "Dr. Chaoli Wang": ["http://sites.nd.edu/chaoli-wang/"],
-                "Dr. Meng Jiang": ["http://www.meng-jiang.com/"],
-                "Dep. of Philosophy": ["https://philosophy.nd.edu/"],
-                    "Dep. of Computer Science and Engineering": ["https://cse.nd.edu/"],
+        "buttons": {"Dr. Tim Weninger": ["https://timweninger.com/", "user"],
+                "Dr. Hannah Rubin": ["http://www.hannahrubin.net/", "user"],
+                "Dr. Chaoli Wang": ["http://sites.nd.edu/chaoli-wang/", "user"],
+                "Dr. Meng Jiang": ["http://www.meng-jiang.com/", "user"],
+                "Philosophy": ["https://philosophy.nd.edu/", "building"],
+                    "Computer Science and Engineering": ["https://cse.nd.edu/", "building"],
                 }
     },
     {
