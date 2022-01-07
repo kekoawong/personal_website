@@ -18,9 +18,31 @@ function createBottomInfo(info) {
 }
 
 function createButtons(info) {
+    /*
+        Must have icons for buttons
+
+        Must be in format:
+            {Icon: [ButtonTitle, link]}
+
+        Supported Icons:
+            link (default),
+            person,
+            dep (department),
+            file,
+            apple,
+            google,
+            linkedIn,
+            facebook,
+            instagram,
+            github,
+    */
     // Must be in for of a list of dictionaries
     // { Button Title: link }
-    
+
+    icons = {
+        "link": ""
+    };
+
     let html = '';
     for (const [key, value] of Object.entries(info)) {
         html += `<button onclick="window.open('${value}','_blank')"><strong>${key}</strong></button>`;
