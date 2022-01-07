@@ -20,6 +20,7 @@ function createBottomInfo(info) {
 function createButtons(info) {
     // Must be in for of a list of dictionaries
     // { Button Title: link }
+    
     let html = '';
     for (const [key, value] of Object.entries(info)) {
         html += `<button onclick="window.open('${value}','_blank')"><strong>${key}</strong></button>`;
