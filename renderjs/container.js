@@ -22,30 +22,29 @@ function createButtons(info) {
         Must have icons for buttons
 
         Must be in format:
-            {Icon: [ButtonTitle, link]}
+            {ButtonTitle: [link, icon]}
 
-        Supported Icons:
-            link (default),
-            person,
-            dep (department),
-            file,
-            apple,
-            google,
-            linkedIn,
-            facebook,
-            instagram,
-            github,
+        Where icon is the name of the font awesome icon
+        i.e. fa-link would just be link
+        link is the default icon if icon is not specified
+
     */
-    // Must be in for of a list of dictionaries
-    // { Button Title: link }
 
     icons = {
-        "link": ""
+        "link": "fa-link",
+        "person": "fa-user",
+        "dep": "fa-building",
+        "file": "fa-file-text",
+        "apple": "fa-apple",
+        "android": "fa-android",
     };
 
     let html = '';
+    let fa = 'link';
     for (const [key, value] of Object.entries(info)) {
-        html += `<button onclick="window.open('${value}','_blank')"><strong>${key}</strong></button>`;
+        fa = value[1] ? value[1] : 'link';
+        icon = `<i class="fa ${fa} fa-lg"></i>`;
+        html += `<button onclick="window.open('${value}','_blank')">${icon}<strong> ${key}</strong></button>`;
     }
     return html;
 }
