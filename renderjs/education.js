@@ -7,7 +7,7 @@ let education = [
         "link": "https://www.nd.edu/",
         "logo": "img/nd_logo.png",
         "location": "Notre Dame, Indiana, USA",
-        "listItems": ["Pursuing a BS from the College of Engineering with majors in Computer Engineering and Philosophy.",
+        "listItems": ["Pursuing a BS from the College of Engineering with majors in Computer Engineering and Honors Philosophy.",
                         "5x Dean's List for College of Engineering."
                     ],
         "bottomInfo": {"Philosophy Coursework:": 
